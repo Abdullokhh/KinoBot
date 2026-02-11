@@ -1,6 +1,5 @@
 require("dotenv").config();
 const { Telegraf, Markup } = require("telegraf");
-const { Pool } = require("pg");
 
 const bot = new Telegraf(process.env.BOT_TOKEN);
 
